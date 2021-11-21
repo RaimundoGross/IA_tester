@@ -16,16 +16,17 @@ while flag1:
         flag1 = False
     elif op1 == 1:
         #certamen1
-        fnc.get_test_data(data, opt=1)
-        pass
+        fnc.test(data, opt=1)
+        
     elif op1 == 2:
         #certamen2
-        fnc.get_test_data(data, opt=2)
-        pass
+        fnc.test(data, opt=2)
+        
     elif op1 == 3:
         #ambos certamenes
-        fnc.get_test_data(data)
+        fnc.test(data, opt=0)
     else:
         #config
-        pass
+        print("Funcionalidad pendiente por implementar\n")
+        
     
